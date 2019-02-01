@@ -1,5 +1,7 @@
 # GitHub Action for running git commands
 
+You can run any `git` command you need. For example, you could run `git status` like this.
+
 ```
 workflow "My build" {
   resolves = [
