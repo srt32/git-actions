@@ -9,7 +9,7 @@ workflow "My build" {
 }
 
 action "git command" {
-  uses = "srt32/git-action@master"
+  uses = "srt32/git-actions@master"
   args = "git status"
 }
 ```
