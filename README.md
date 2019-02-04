@@ -2,7 +2,7 @@
 
 You can run any `git` command you need. For example, you could run `git status` like this.
 
-```
+```hcl
 workflow "My build" {
   resolves = [
     "git command",
@@ -11,7 +11,7 @@ workflow "My build" {
 }
 
 action "git command" {
-  uses = "srt32/git-actions@master"
+  uses = "srt32/git-actions@v0.0.3"
   args = "git status"
 }
 ```
