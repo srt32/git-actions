@@ -8,7 +8,7 @@ LABEL "com.github.actions.color"="yellow"
 LABEL "repository"="http://github.com/srt32/git-actions"
 LABEL "homepage"="http://github.com/srt32/git-actions"
 
-RUN apk add --no-cache git bash
+RUN apk add --no-cache git bash git-subtree
 
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
